@@ -22,8 +22,38 @@
     </header>
 
     <main>
-      <h1>Contact Us</h1>
-      <p>555-555-5555</p>
+      <h1>Find us</h1>
+      <p>
+        Questions, catering requests, or just want to say hi? Send us a message.
+      </p>
+
+      <form class="card" action="#">
+        <div class="field">
+          <label for="name">Your name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="name"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="emial">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
     </main>
 
     <footer>
